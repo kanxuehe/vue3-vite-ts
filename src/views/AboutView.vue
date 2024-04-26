@@ -5,6 +5,7 @@
 </template>
 
 <style>
+@import './index.css';
 @media (min-width: 1024px) {
   .about {
     min-height: 100vh;
