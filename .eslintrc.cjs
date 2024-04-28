@@ -25,8 +25,11 @@ module.exports = {
   },
   settings: {
     'import/resolver': {
-      typescript: {}
-      // alias: [['@', './src']]
+      // typescript: {},
+      alias: {
+        map: [['@', './src']],
+        extensions: ['.ts', '.js', '.vue', '.json']
+      }
     }
   },
   parserOptions: {
